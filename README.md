@@ -43,6 +43,8 @@ Clone
 -----
 
     $ git clone https://github.com/lawrencec/environs
+    Edit the config.vm.share_folder property in the webdev/Vagrantfile to point to
+    the folder you want to share. 
     $ cd environs
     $ vagrant up
     $ vagrant ssh
@@ -70,7 +72,7 @@ Now you can use webdev.box as a base box
 TODO
 ====
 
-* Various things but perhaps use some of the config at [David Schmitt's repo](http://projects.puppetlabs.com/projects/puppet/wiki/Complete_Configuration)) and the Puppet forge
+* Various things but perhaps use some of the config at [David Schmitt's repo](http://projects.puppetlabs.com/projects/puppet/wiki/Complete_Configuration) and the Puppet forge
 * A CI environment
 
 
